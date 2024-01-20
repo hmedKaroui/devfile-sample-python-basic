@@ -9,7 +9,7 @@ def hello():
 
 @app.route('/greetings')
 def greetings():
-    return "Hello Ahmed, you did this, great!"
+    return "Hello Ahmed, you did this, great yes!"
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
